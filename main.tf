@@ -21,10 +21,10 @@ resource "aws_instance" "app_server" {
   user_data     = <<-EOF
                  #!/bin/bash
                  cd /home/ubuntu
-                 echo "<h1>Olá mundo com o Terraform</h1>" > index.html
-                 nohup busybox -f -p 8080 &
+                 echo "<h1>Ola mundo com o Terraform</h1>" > index.html
+                 nohup busybox httpd -f -p 8080 &
                  EOF
   tags = {
-    Name = "Universion-aws-1"
+    Name = "Universion-terraform"
   }
 }
