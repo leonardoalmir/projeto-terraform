@@ -13,3 +13,6 @@
       name:
         - django
         - djangorestframework
+  - name: Iniciando o projeto com Django
+    shell: '. /home/ubuntu/tcc/venv/bin/activate; django-admin startproject setup /home/ubuntu/tcc/'
+    # Acima usamos o ponto e virgula para que no mesmo shell seja executado os comando, um logo em seguida do outro.
