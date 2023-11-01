@@ -18,12 +18,12 @@ resource "aws_instance" "app_server" {
   ami           = "ami-0fc5d935ebf8bc3bc"
   instance_type = "t2.micro"
   key_name      = "leonardo-universion1-key"
-  user_data     = <<-EOF
-                 #!/bin/bash
-                 cd /home/ubuntu
-                 echo "<h1>Ola mundo com o Terraform</h1>" > index.html
-                 nohup busybox httpd -f -p 8080 &
-                 EOF
+#   user_data     = <<-EOF
+#                  #!/bin/bash
+#                  cd /home/ubuntu
+#                  echo "<h1>Ola mundo com o Terraform</h1>" > index.html
+#                  nohup busybox httpd -f -p 8080 &
+#                  EOF
   tags = {
     Name = "Universion-terraform"
   }
