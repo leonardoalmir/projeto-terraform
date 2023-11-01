@@ -16,3 +16,10 @@
   - name: Iniciando o projeto com Django
     shell: '. /home/ubuntu/tcc/venv/bin/activate; django-admin startproject setup /home/ubuntu/tcc/'
     # Acima usamos o ponto e virgula para que no mesmo shell seja executado os comando, um logo em seguida do outro.
+  - name: Alterando permissao de hosts no arquivo settings.py
+    lineinfile:
+      path: /home/ubuntu/tcc/setup/settings.py
+      regexp: 'ALLOWED_HOSTS'
+      line: 'ALLOWED_HOSTS = ["*"]'
+      backrefs: yes
+      # Esse parametro backrefs garante que se o arquivo não for encontrado ou a string ALLOWED_HOSTS, ele não mexerá no arquivo settings.py
