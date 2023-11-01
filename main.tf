@@ -25,6 +25,6 @@ resource "aws_instance" "app_server" {
 #                  nohup busybox httpd -f -p 8080 &
 #                  EOF
   tags = {
-    Name = "Universion-terraform"
+    Name = "Universion-terraform-ansible"
   }
 }
