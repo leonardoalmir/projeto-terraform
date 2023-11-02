@@ -1,5 +1,5 @@
 <h1 align="center">
-  Rodando projeto Python3, usando virtualenv e Django. Infra criada com Terraform e Ansible na Amazon AWS.
+  Terraform e Ansible na Amazon AWS.
 </h1>
 
 <p align="center">
@@ -16,7 +16,7 @@
 
 ## 💻 Projeto
 
-Este projeto é um do site do filme **Mario Bros**. Usando _HTML_ e _CSS_.
+Rodando projeto Python3, usando virtualenv e Django. Infra criada com **Terraform e Ansible na Amazon AWS**.
 
 ## 🚀 Tecnologias
 
