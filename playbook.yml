@@ -23,3 +23,4 @@
       line: 'ALLOWED_HOSTS = ["*"]'
       backrefs: yes
       # Esse parametro backrefs garante que se o arquivo não for encontrado ou a string ALLOWED_HOSTS, ele não mexerá no arquivo settings.py
+      
