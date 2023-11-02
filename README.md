@@ -31,19 +31,19 @@ Rodando projeto Python3, usando virtualenv e Django. Infra criada com **Terrafor
 
 - [x] Fundamentos da infraestrutura como código
 - [x] Como instalar e configurar o AWS CLI
-- [x] criar um par de chaves para permitir a conexão SSH
+- [x] Criar um par de chaves para permitir a conexão SSH
 - [x] Fazer alterações necessárias no grupo de segurança na AWS para fazermos requisições para uma instância
 - [x] Criar instâncias na AWS ultilizando o Terraform
 - [x] Boas práticas na infraestrutura como código
 - [x] Criar um servidor http para testes rápidos com o busybox httpd
-- [x] Configure instâncias na AWS ultilizando o Ansible
+- [x] Configurar instâncias na AWS ultilizando o Ansible
 - [x] Como executar o playbook do Ansible
 - [x] Praticar com diferentes módulos do Ansible
 - [x] Como utilizar o Ansible para instalar programas
-- [x] Como utilizar o Ansible para criar um ambiente virtual do python (Virtualenv)
+- [x] Utilizar o Ansible para criar um ambiente virtual do python (Virtualenv)
 - [x] Fazer a instalação de dependências do python dentro do ambiente virtual
-- [x] Como executar “comandos do terminal” através do Ansible utilizando o parâmetro shell:
-- [x] Como modificar o conteúdo de um arquivo
+- [x] Executar “comandos do terminal” através do Ansible utilizando o parâmetro shell:
+- [x] Modificar o conteúdo de um arquivo
 
 ## :memo: Licença
 
